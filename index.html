@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Web</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="header__item">
+            <h1>
+                Carlos Andrés Miranda Méndez <span></span>
+            </h1>
+            <span class="btn_menu">
+                <i class="fas fa-bars" id="icono-menu"></i>
+            </span>
+        </div>
+        <section class="section">
+            <nav class="navegacion activo" id="menu">
+                <ul class="navegacion__enlace">
+                    <li class="navegacion__enlace-item"><i class="fas fa-home"></i><a href="index.php">Inicio</a></li>
+                    <li class="navegacion__enlace-item"><i class="fas fa-user"></i><a href="#sobre-mi">Sobre mi</a></li>
+                    <li class="navegacion__enlace-item"><i class="fas fa-toolbox"></i><a href="#tecnologias">Tecnologias</a></li>
+                    <li class="navegacion__enlace-item"><i class="fas fa-address-book"></i><a href="#proyectos">Proyectos</a></li>
+                    <li class="navegacion__enlace-item"><i class="fas fa-id-badge"></i><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="contenedor-img">
+                <div class="contenido-img">
+                    <h2>Hola! Soy Carlos Miranda, Programador Jr. <span></span></h2>
+                    <div class="ubicacion">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="12" cy="11" r="3" />
+                            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                        </svg>
+                        <p>Huehuetenango, Guatemala</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- Sobre mi -->
+    <main class="contenedor">
+        <section class="sobre__mi">
+            <h2 id="sobre-mi">Sobre mi</h2>
+            <div class="sobre__mi-contenido sombra">
+                <div class="sobre__mi-img">
+                    <img src="img/undraw_laravel_and_vue_59tp.png" alt="">
+                </div>
+                <div class="sobre__mi-texto">
+                    <p>Soy estudiante de octavo ciclo de la carrera de Ingeniería en Sistemas, me apasiona el desarrollo de sotware, además que me identifico con ser autodidacta.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="tecnologias" id="tecnologias">
+            <h2>He desarrollado aplicaciones y utilidades con las siguientes tecnologías:</h2>
+            <div class="tecnologias__contenedor sombra">
+                <div class="tecnologias__img">
+                    <img src="img/python.png" alt="logo-python">
+                    <span>PYTHON</span>
+                </div>
+                <div class="tecnologias__img">
+                    <img src="img/java.png" alt="logo-java">
+                    <span>JAVA</span>
+                </div>
+                <div class="tecnologias__img">
+                    <img src="img/csharp.png" alt="logo-csharp">
+                    <span>C#</span>
+                </div>
+                <div class="tecnologias__img">
+                    <img src="img/postgresql.png" alt="logo-postgresql">
+                    <span>POSTGRESQL</span>
+                </div>
+                <div class="tecnologias__img">
+                    <img src="img/mysql.png" alt="logo-mysql">
+                    <span>MYSQL</span>
+                </div>
+                <div class="tecnologias__img">
+                    <img src="img/html-5.png" alt="logo-html">
+                    <span>HTML5</span>
+                </div>
+                <div class="tecnologias__img">
+                    <img src="img/css-3.png" alt="logo-css">
+                    <span>CSS</span>
+                </div>
+                <div class="tecnologias__img">
+                    <img src="img/js.png" alt="logo-js">
+                    <span>JAVASCRIPT</span>
+                </div>
+            </div>
+        </section>
+        <!-- Proyectos -->
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="proyectos sombra">
+                <div class="tecnologias__img">
+                    <h3>Acceso a Repositorios Públicos, dar click al logo de Github:</h3>
+                    <a href="https://github.com/InZaynGT?tab=repositories" target="_blank">
+                        <img src="img/github.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+            
+        <!-- Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="contacto sombra">
+                <div class="contacto__item">
+                    <a href="https://wa.me/50258385781" target="Blank_">
+                        <img src="img/whatsapp.png" alt="icono-wahtsapp" class="img-contacto">
+                        <span>WhatSapp</span>
+                    </a>
+                </div>
+                <div class="contacto__item">
+                    <a href="https://www.facebook.com/carlos.perezmiranda.18/" target="Blank_">
+                        <img src="img/facebook.png" alt="icono-facebook" class="img-contacto">
+                        <span>facebook</span>
+                    </a>
+                </div>
+                <div class="contacto__item">
+                    <a href="https://www.instagram.com/carrlos_mm/" target="Blank_">
+                        <img src="img/instagram.png" alt="icono-instagram" class="img-contacto">
+                        <span>Instagram</span>
+                    </a>
+                </div>
+                
+            </div>
+            
+        </section>
+    </main>
+    <!--Footer  -->
+    <footer class="footer">
+        <h3>Todos los derechos reservados a Carlos Andrés Miranda Méndez</h3>
+    </footer>
+    
+    <!-- Script js -->
+    <script src="js/app.js"></script>
+</body>
+</html>
